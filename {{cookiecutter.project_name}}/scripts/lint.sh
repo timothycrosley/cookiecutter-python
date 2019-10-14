@@ -1,5 +1,6 @@
 #!/bin/bash -xe
 
+poetry run cruft check
 poetry run mypy --ignore-missing-imports {{cookiecutter.project_name}}/
 poetry run isort --multi-line=3 --trailing-comma --force-grid-wrap=0 --use-parentheses --line-width=100 --recursive --check --diff --recursive {{cookiecutter.project_name}}/ tests/
 poetry run black --check -l 100 {{cookiecutter.project_name}}/ tests/
