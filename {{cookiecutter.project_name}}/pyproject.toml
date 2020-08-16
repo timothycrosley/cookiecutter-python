@@ -23,7 +23,7 @@ pytest-cov = "^2.7"
 pytest-mock = "^1.10"
 pep8-naming = "^0.8.2"
 portray = "^1.3.0"
-cruft = "^1.1"
+cruft = "^2.2"
 
 [build-system]
 requires = ["poetry>=0.12"]
