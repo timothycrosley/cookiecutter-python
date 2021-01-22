@@ -1,3 +1,4 @@
+{% raw -%}
 name: Test
 
 on: [push, pull_request]
@@ -62,3 +63,4 @@ jobs:
       - name: Report Coverage
         if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.8'
         uses: codecov/codecov-action@v1.0.6
+{%- endraw %}

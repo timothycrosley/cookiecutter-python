@@ -1,3 +1,4 @@
+{% raw -%}
 name: Integration
 
 on: [push, pull_request]
@@ -33,3 +34,4 @@ jobs:
 
       - name: Test integration
         run: ./scripts/test_integration.sh
+{%- endraw %}

@@ -1,3 +1,4 @@
+{% raw -%}
 name: Lint
 
 on: [push, pull_request]
@@ -33,3 +34,4 @@ jobs:
 
       - name: Lint
         run: ./scripts/lint.sh
+{%- endraw %}
