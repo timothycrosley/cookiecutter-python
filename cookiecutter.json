@@ -1,8 +1,8 @@
 {
-  "full_name": "Name Surname",
+  "developer_name": "Name Surname",
   "email": "my.email@host.com",
-  "github_username": "myusername",
+  "github_username": "my_username",
   "project_name": "python_project_name",
-  "description": "Project short description.",
+  "description": "Short description of repository",
   "version": "0.0.1"
 }
